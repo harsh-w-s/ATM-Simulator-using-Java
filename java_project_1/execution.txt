@@ -1,0 +1,2 @@
+javac -d bin -cp "lib/mysql-connector-java-8.0.28.jar;lib/jcalendar-1.4.jar" src/bank/management/system/*.java
+java -cp "bin;lib/mysql-connector-java-8.0.28.jar;lib/jcalendar-1.4.jar" bank.management.system.SignUp
