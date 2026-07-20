@@ -1,47 +1,68 @@
-🏦 Bank ATM Simulator
-A console-based Java application that simulates the functionality of an ATM. Features include account authentication, balance inquiry, deposit, withdrawal, and PIN verification — all built using core Java concepts and connected to a MySQL database.
+# 🏦 Bank ATM Simulator
 
-📌 Features
-✅ User authentication via PIN
+A **console-based Banking ATM Simulator** built using **Core Java** and **MySQL** that simulates real-world ATM operations. The application provides secure user authentication, account management, and transaction processing while demonstrating Object-Oriented Programming principles and JDBC-based database connectivity.
 
-💰 Balance inquiry
+---
 
-💵 Deposit and withdrawal
+## 🎥 Project Demo
 
-🔐 PIN verification and validation
+> 📹 **Demo Video:**
 
-🗃️ Data persistence using MySQL
+▶️ **[Watch the Demo Video 1](https://github.com/harsh-w-s/ATM-Simulator-using-Java/releases/download/v1.0.0/Project_Explain_Part_1.mp4)**
 
-🧠 Follows Object-Oriented Programming principles
+▶️ **[Watch the Demo Video 2](https://github.com/harsh-w-s/ATM-Simulator-using-Java/releases/download/v1.0.0/Project_Explain_Part_2.mp4)**
 
-🛠️ Tech Stack
-Language: Java
+---
 
-Database: MySQL
+## 🚀 Features
 
-IDE: IntelliJ IDEA / Eclipse
+- 🔐 Secure account authentication using Account Number and PIN
+- 💰 Check account balance
+- 💵 Deposit money
+- 💸 Withdraw money
+- 🗃️ Persistent data storage using MySQL
+- ⚠️ Input validation and exception handling
+- 🏗️ Modular Object-Oriented design
+- 🔄 Real-time database updates using JDBC
 
-Build Tool: Maven (optional)
+---
 
-Tools Used: MySQL Workbench, Git
+## 🛠️ Tech Stack
 
-🧩 Project Structure
-bash
-Copy
-Edit
+| Technology | Usage |
+|------------|-------|
+| Java | Core application development |
+| JDBC | Database connectivity |
+| MySQL | Data storage |
+| SQL | Database operations |
+| OOP | Application architecture |
+| Git | Version control |
+| IntelliJ IDEA / Eclipse | Development IDE |
+
+---
+
+## 📂 Project Structure
+
+```
 ATM-Simulator/
+│
 ├── src/
 │   ├── Main.java
 │   ├── ATM.java
 │   ├── Account.java
 │   └── DatabaseConnector.java
+│
 ├── sql/
 │   └── atm_schema.sql
+│
 ├── README.md
-🗄️ Database Schema
-sql
-Copy
-Edit
+```
+
+---
+
+## 🗄️ Database Schema
+
+```sql
 CREATE DATABASE atm_simulator;
 
 USE atm_simulator;
@@ -49,67 +70,130 @@ USE atm_simulator;
 CREATE TABLE accounts (
     account_number INT PRIMARY KEY,
     pin INT NOT NULL,
-    balance DECIMAL(10, 2) NOT NULL
+    balance DECIMAL(10,2) NOT NULL
 );
-🚀 How to Run
-Clone this repository
+```
 
-bash
-Copy
-Edit
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/harsh-w-s/ATM-Simulator.git
 cd ATM-Simulator
-Import into your Java IDE
+```
 
-Setup the MySQL database
+### 2️⃣ Configure MySQL
 
-Create the schema using atm_schema.sql
+- Create the database using the provided SQL script.
+- Insert sample account data.
+- Update your MySQL username and password inside `DatabaseConnector.java`.
 
-Add some test account data manually
+### 3️⃣ Run the application
 
-Update your DB credentials
+Run `Main.java` from your IDE.
 
-Open DatabaseConnector.java and add your username and password
+---
 
-Run the project
+## 👨‍💻 Sample Test Account
 
-Start with Main.java in your IDE
+| Account Number | PIN | Balance |
+|---------------|-----|---------|
+| 1001 | 1234 | ₹5000.00 |
 
-👨‍💻 Example Account for Testing
-Account Number	PIN	Balance
-1001	1234	5000.00
+---
 
-📷 Screenshots (optional)
-You can add screenshots like:
+## 💻 Sample Output
 
-markdown
-Copy
-Edit
-> Welcome to ATM!
-> Enter your Account Number:
-> Enter your PIN:
-> 1. Check Balance
-> 2. Deposit
-> 3. Withdraw
-> 4. Exit
-📚 Concepts Practiced
-Java OOP (Classes, Objects, Encapsulation)
+```text
+=================================
+        BANK ATM SYSTEM
+=================================
 
-Exception Handling
+1. Login
+2. Exit
 
-JDBC (Java Database Connectivity)
+Enter Account Number:
+Enter PIN:
 
-SQL Queries
+Login Successful!
 
-Console I/O Handling
+1. Balance Enquiry
+2. Deposit
+3. Withdraw
+4. Exit
+```
 
-✍️ Author
-Harshwardhan Solanki
-GitHub | LinkedIn
+---
 
-💡 Future Improvements
-Admin login for creating new accounts
+## 🧠 Concepts Demonstrated
 
-Transaction history log
+- Object-Oriented Programming (OOP)
+- Encapsulation
+- JDBC (Java Database Connectivity)
+- SQL CRUD Operations
+- Exception Handling
+- Console-based User Interaction
+- Database Design
+- Modular Programming
 
-GUI version using JavaFX or Swing
+---
+
+## 📈 Future Enhancements
+
+- GUI using JavaFX or Swing
+- Transaction History
+- Money Transfer Between Accounts
+- Mini Statement
+- Admin Dashboard
+- Password Encryption
+- Account Creation Module
+
+---
+
+## 📸 Screenshots
+
+### Login Screen
+
+> *(Add screenshot here)*
+
+---
+
+### Main Menu
+
+> *(Add screenshot here)*
+
+---
+
+### Successful Transaction
+
+> *(Add screenshot here)*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve this project, feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Harshwardhan Solanki**
+
+- GitHub: https://github.com/harsh-w-s
+- LinkedIn: *(Add your LinkedIn URL)*
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star**!
