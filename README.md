@@ -8,9 +8,9 @@ A **console-based Banking ATM Simulator** built using **Core Java** and **MySQL*
 
 > 📹 **Demo Video:**
 
-▶️ **[Watch the Demo Video 1](https://github.com/harsh-w-s/ATM-Simulator-using-Java/releases/download/v1.0.0/Project_Explain_Part_1.mp4)**
+**[![Watch the Demo Video 1](assets/Hom_Page.png)](https://www.youtube.com/watch?v=lDNp3Bp4rAM)**
 
-▶️ **[Watch the Demo Video 2](https://github.com/harsh-w-s/ATM-Simulator-using-Java/releases/download/v1.0.0/Project_Explain_Part_2.mp4)**
+**[![Watch the Demo Video 2](assets/Login_Window.png)](https://www.youtube.com/watch?v=YK6tJ3nF8W8)**
 
 ---
 
