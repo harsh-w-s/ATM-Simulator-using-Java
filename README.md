@@ -8,9 +8,9 @@ A **console-based Banking ATM Simulator** built using **Core Java** and **MySQL*
 
 > 📹 **Demo Video:**
 
-**[![Watch the Demo Video 1](assets/Hom_Page.png)](https://www.youtube.com/watch?v=lDNp3Bp4rAM)**
+[![Watch the Demo Video 1](assets/Hom_Page.png)](https://www.youtube.com/watch?v=lDNp3Bp4rAM)
 
-**[![Watch the Demo Video 2](assets/Login_Window.png)](https://www.youtube.com/watch?v=YK6tJ3nF8W8)**
+[![Watch the Demo Video 2](assets/Login_Window.png)](https://www.youtube.com/watch?v=YK6tJ3nF8W8)
 
 ---
 
@@ -157,19 +157,22 @@ Login Successful!
 
 ### Login Screen
 
-> *(Add screenshot here)*
+> *<img width="1062" height="598" alt="Login_Window" src="https://github.com/user-attachments/assets/4bcdc355-4873-4ae7-b34d-e47e336d1f18" />
+*
 
 ---
 
 ### Main Menu
 
-> *(Add screenshot here)*
+> *<img width="1920" height="1080" alt="Hom_Page" src="https://github.com/user-attachments/assets/2994cfc9-90a2-4efd-a2cc-d6530a581da3" />
+*
 
 ---
 
 ### Successful Transaction
 
-> *(Add screenshot here)*
+> *<img width="1920" height="1080" alt="successfull_txn" src="https://github.com/user-attachments/assets/30a1aff5-70e1-4e60-a226-4da8065efef8" />
+*
 
 ---
 
@@ -192,7 +195,7 @@ This project is intended for educational and portfolio purposes.
 **Harshwardhan Solanki**
 
 - GitHub: https://github.com/harsh-w-s
-- LinkedIn: *(Add your LinkedIn URL)*
+- LinkedIn: *https://www.linkedin.com/in/harsh-w-s/*
 
 ---
 
