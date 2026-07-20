@@ -157,22 +157,19 @@ Login Successful!
 
 ### Login Screen
 
-> *<img width="1062" height="598" alt="Login_Window" src="https://github.com/user-attachments/assets/4bcdc355-4873-4ae7-b34d-e47e336d1f18" />
-*
+<img width="1062" height="598" alt="Login_Window" src="https://github.com/user-attachments/assets/4bcdc355-4873-4ae7-b34d-e47e336d1f18" />
 
 ---
 
 ### Main Menu
 
-> *<img width="1920" height="1080" alt="Hom_Page" src="https://github.com/user-attachments/assets/2994cfc9-90a2-4efd-a2cc-d6530a581da3" />
-*
+<img width="1920" height="1080" alt="Hom_Page" src="https://github.com/user-attachments/assets/2994cfc9-90a2-4efd-a2cc-d6530a581da3" />
 
 ---
 
 ### Successful Transaction
 
-> *<img width="1920" height="1080" alt="successfull_txn" src="https://github.com/user-attachments/assets/30a1aff5-70e1-4e60-a226-4da8065efef8" />
-*
+<img width="1920" height="1080" alt="successfull_txn" src="https://github.com/user-attachments/assets/30a1aff5-70e1-4e60-a226-4da8065efef8" />
 
 ---
 
